@@ -67,23 +67,25 @@ class CustomCell: UITableViewCell{
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        editButton.addTarget(self, action: #selector(editCell(_:)), for: .touchUpInside)
+        deleteButton.addTarget(self, action: #selector(deleteCell(_:)), for: .touchUpInside)
         
-        self.isUserInteractionEnabled = false
 //        В инициализаторе через addSubview добавляем на ячейку лейбл и баттоны
-        addSubview(itemTaskLabel)
-        addSubview(editButton)
-        addSubview(deleteButton)
+        contentView.addSubview(itemTaskLabel)
+        contentView.addSubview(editButton)
+        contentView.addSubview(deleteButton)
         
 //      Задаём констрейнты для лейбла
-        itemTaskLabel.anchor(top: topAnchor, left: leftAnchor, bottom: bottomAnchor, right: nil, paddingTop: 5, paddingLeft: 15, paddingBottom: 5, paddingRight: 0, width: 200, height: 0, enableInsets: false)
+        itemTaskLabel.anchor(top: topAnchor, left: leftAnchor, bottom: bottomAnchor, right: nil, paddingTop: 5, paddingLeft: 15, paddingBottom: 5, paddingRight: 0, width: 200, height: 60, enableInsets: false)
         
 //        Пакуем баттоны в стейвью и задаём констрейнты
         let stackView = UIStackView(arrangedSubviews: [editButton, deleteButton])
-        stackView.distribution = .fillEqually
+        stackView.distribution = .fillProportionally
         stackView.axis = .horizontal
         stackView.spacing = 5
+        
         addSubview(stackView)
-        stackView.anchor(top: topAnchor, left: itemTaskLabel.rightAnchor, bottom: bottomAnchor, right: rightAnchor, paddingTop: 15, paddingLeft: 50, paddingBottom: 15, paddingRight: 55, width: 0, height: 50, enableInsets: false)
+        stackView.anchor(top: topAnchor, left: itemTaskLabel.rightAnchor, bottom: .none, right: rightAnchor, paddingTop: 15, paddingLeft: 50, paddingBottom: 15, paddingRight: 55, width: 0, height: 25, enableInsets: false)
     
     }
     
@@ -95,4 +97,5 @@ class CustomCell: UITableViewCell{
     
     
 }
+
 

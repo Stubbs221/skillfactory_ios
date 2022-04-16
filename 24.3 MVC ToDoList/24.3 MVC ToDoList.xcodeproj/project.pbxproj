@@ -13,10 +13,10 @@
 		4F868F662804556100659CB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F868F652804556100659CB5 /* Assets.xcassets */; };
 		4F868F692804556100659CB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F868F672804556100659CB5 /* LaunchScreen.storyboard */; };
 		4F868F712804586B00659CB5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F868F702804586B00659CB5 /* Model.swift */; };
-		4F868F7328045B7000659CB5 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F868F7228045B7000659CB5 /* CustomCell.swift */; };
 		4F868F752804655B00659CB5 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F868F742804655B00659CB5 /* Extension.swift */; };
 		4F868F7A280AF3F700659CB5 /* TaskCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F868F78280AF3F700659CB5 /* TaskCustomCell.swift */; };
 		4F868F7B280AF3F700659CB5 /* TaskCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F868F79280AF3F700659CB5 /* TaskCustomCell.xib */; };
+		4F868F7E280B4D4E00659CB5 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F868F7D280B4D4E00659CB5 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		4F868F682804556100659CB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F868F6A2804556100659CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F868F702804586B00659CB5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = SOURCE_ROOT; };
-		4F868F7228045B7000659CB5 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomCell.swift; path = "24.3 MVC ToDoList/New Group/CustomCell.swift"; sourceTree = SOURCE_ROOT; };
-		4F868F742804655B00659CB5 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extension.swift; path = "24.3 MVC ToDoList/CellWithCode(Not working)/Extension.swift"; sourceTree = SOURCE_ROOT; };
-		4F868F78280AF3F700659CB5 /* TaskCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCustomCell.swift; sourceTree = SOURCE_ROOT; };
-		4F868F79280AF3F700659CB5 /* TaskCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskCustomCell.xib; sourceTree = SOURCE_ROOT; };
+		4F868F742804655B00659CB5 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extension.swift; path = "24.3 MVC ToDoList/Extension.swift"; sourceTree = SOURCE_ROOT; };
+		4F868F78280AF3F700659CB5 /* TaskCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskCustomCell.swift; path = "24.3 MVC ToDoList/CellWithCode(Not working)/TaskCustomCell.swift"; sourceTree = SOURCE_ROOT; };
+		4F868F79280AF3F700659CB5 /* TaskCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TaskCustomCell.xib; path = "24.3 MVC ToDoList/CellWithCode(Not working)/TaskCustomCell.xib"; sourceTree = SOURCE_ROOT; };
+		4F868F7D280B4D4E00659CB5 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +64,8 @@
 		4F868F5B2804555D00659CB5 /* 24.3 MVC ToDoList */ = {
 			isa = PBXGroup;
 			children = (
-				4F868F78280AF3F700659CB5 /* TaskCustomCell.swift */,
-				4F868F79280AF3F700659CB5 /* TaskCustomCell.xib */,
+				4F868F7D280B4D4E00659CB5 /* CustomCell.swift */,
+				4F868F742804655B00659CB5 /* Extension.swift */,
 				4F868F702804586B00659CB5 /* Model.swift */,
 				4F868F5C2804555D00659CB5 /* AppDelegate.swift */,
 				4F868F5E2804555D00659CB5 /* SceneDelegate.swift */,
@@ -81,8 +81,8 @@
 		4F868F7C280B45E000659CB5 /* CellWithCode(Not working) */ = {
 			isa = PBXGroup;
 			children = (
-				4F868F742804655B00659CB5 /* Extension.swift */,
-				4F868F7228045B7000659CB5 /* CustomCell.swift */,
+				4F868F78280AF3F700659CB5 /* TaskCustomCell.swift */,
+				4F868F79280AF3F700659CB5 /* TaskCustomCell.xib */,
 			);
 			path = "CellWithCode(Not working)";
 			sourceTree = "<group>";
@@ -160,10 +160,10 @@
 			files = (
 				4F868F612804555D00659CB5 /* ViewController.swift in Sources */,
 				4F868F5D2804555D00659CB5 /* AppDelegate.swift in Sources */,
-				4F868F7328045B7000659CB5 /* CustomCell.swift in Sources */,
 				4F868F752804655B00659CB5 /* Extension.swift in Sources */,
 				4F868F5F2804555D00659CB5 /* SceneDelegate.swift in Sources */,
 				4F868F7A280AF3F700659CB5 /* TaskCustomCell.swift in Sources */,
+				4F868F7E280B4D4E00659CB5 /* CustomCell.swift in Sources */,
 				4F868F712804586B00659CB5 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

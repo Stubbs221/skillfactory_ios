@@ -18,8 +18,9 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 //        Регистрируем ячейку для тейблвью
-        let nib = UINib(nibName: "TaskCustomCell", bundle: nil)
-        tableView.register(nib, forCellReuseIdentifier: "cellID")
+        tableView.register(CustomCell.self, forCellReuseIdentifier: cellID)
+//        let nib = UINib(nibName: "TaskCustomCell", bundle: nil)
+//        tableView.register(nib, forCellReuseIdentifier: "cellID")
         
 //      Создаём лейбл в NavigationBar
         let title = createCustomTitleView()
@@ -53,7 +54,7 @@ class ViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath) as! TaskCustomCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath) as! CustomCell
         let currentItem = model.taskArray[indexPath.row]
         cell.itemTaskLabel.text = currentItem.taskText
         cell.cellIndex = indexPath
@@ -79,10 +80,14 @@ class ViewController: UITableViewController {
         
     }
     
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return CGFloat(60)
+    }
+    
     
     func editCellText(cellRow: Int) {
 //        Кнопка на ячейке вызывающая алерт для изменения текста ячейки
-        let cell = tableView(tableView, cellForRowAt: IndexPath(row: cellRow, section: 0)) as! TaskCustomCell
+        let cell = tableView(tableView, cellForRowAt: IndexPath(row: cellRow, section: 0)) as! CustomCell
         
         alert = UIAlertController(title: "Изменить задачу", message: nil, preferredStyle: .alert)
         
@@ -187,13 +192,15 @@ class ViewController: UITableViewController {
 
 
 // MARK: Подписываем вью контроллер под протокол делегат ячейки
-extension ViewController: TaskCustomCellDelegate {
+extension ViewController: CustomCellDelegate {
     
     @objc func editCell(_ row: Int) {
+        print("editCell works")
         self.editCellText(cellRow: row)
     }
     
     func deleteCell(_ row: Int) {
+        print("deleteCell works")
         self.model.removeTask(at: row)
         
         tableView.reloadData()
