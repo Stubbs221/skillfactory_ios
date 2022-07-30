@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		026CFB8E15E385CD564793A3 /* Pods_37_7_ParsingProject_Moya_Alamofire_Kingfisher_ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CEA84A876D666F67D833B08 /* Pods_37_7_ParsingProject_Moya_Alamofire_Kingfisher_ObjectMapper.framework */; };
+		044CAC532894233900A4998C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CAC522894233900A4998C /* AppDelegate.swift */; };
+		044CAC552894233900A4998C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CAC542894233900A4998C /* SceneDelegate.swift */; };
+		044CAC572894233900A4998C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CAC562894233900A4998C /* MainView.swift */; };
+		044CAC5C2894233900A4998C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044CAC5B2894233900A4998C /* Assets.xcassets */; };
+		044CAC5F2894233900A4998C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044CAC5D2894233900A4998C /* LaunchScreen.storyboard */; };
+		044CAC6D2894291D00A4998C /* Extension + MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CAC6C2894291D00A4998C /* Extension + MainView.swift */; };
+		044CAC6F2894293700A4998C /* NetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CAC6E2894293700A4998C /* NetworkLayer.swift */; };
+		044CAC7228942AC200A4998C /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CAC7028942AC200A4998C /* NewsCell.swift */; };
+		044CAC7328942AC200A4998C /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044CAC7128942AC200A4998C /* NewsCell.xib */; };
+		044CAC7528942CC100A4998C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CAC7428942CC100A4998C /* Model.swift */; };
+		044CAC7B289567C600A4998C /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044CAC7A289567C600A4998C /* SpinnerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		044CAC4F2894233900A4998C /* 37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		044CAC522894233900A4998C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		044CAC542894233900A4998C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		044CAC562894233900A4998C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		044CAC5B2894233900A4998C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044CAC5E2894233900A4998C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044CAC602894233900A4998C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044CAC6C2894291D00A4998C /* Extension + MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + MainView.swift"; sourceTree = "<group>"; };
+		044CAC6E2894293700A4998C /* NetworkLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayer.swift; sourceTree = "<group>"; };
+		044CAC7028942AC200A4998C /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		044CAC7128942AC200A4998C /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		044CAC7428942CC100A4998C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		044CAC7A289567C600A4998C /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		1CEA84A876D666F67D833B08 /* Pods_37_7_ParsingProject_Moya_Alamofire_Kingfisher_ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_37_7_ParsingProject_Moya_Alamofire_Kingfisher_ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20ADC1471AEF3037671E2DD6 /* Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper.release.xcconfig"; path = "Target Support Files/Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper/Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper.release.xcconfig"; sourceTree = "<group>"; };
+		2C79980946A5EB24962E642D /* Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper.debug.xcconfig"; path = "Target Support Files/Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper/Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044CAC4C2894233900A4998C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				026CFB8E15E385CD564793A3 /* Pods_37_7_ParsingProject_Moya_Alamofire_Kingfisher_ObjectMapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044CAC462894233900A4998C = {
+			isa = PBXGroup;
+			children = (
+				044CAC512894233900A4998C /* 37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper */,
+				044CAC502894233900A4998C /* Products */,
+				AA2AAC72B0DD8A8C6644EF2B /* Pods */,
+				C588C6C8B6DF1DBAC5B2D62C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		044CAC502894233900A4998C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044CAC4F2894233900A4998C /* 37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044CAC512894233900A4998C /* 37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				044CAC782895679300A4998C /* LaunchScreenModule */,
+				044CAC66289428D000A4998C /* MainModule */,
+				044CAC522894233900A4998C /* AppDelegate.swift */,
+				044CAC542894233900A4998C /* SceneDelegate.swift */,
+				044CAC5B2894233900A4998C /* Assets.xcassets */,
+				044CAC5D2894233900A4998C /* LaunchScreen.storyboard */,
+				044CAC602894233900A4998C /* Info.plist */,
+				044CAC6C2894291D00A4998C /* Extension + MainView.swift */,
+				044CAC6E2894293700A4998C /* NetworkLayer.swift */,
+			);
+			path = "37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper";
+			sourceTree = "<group>";
+		};
+		044CAC66289428D000A4998C /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				044CAC6B289428FF00A4998C /* Model */,
+				044CAC67289428E000A4998C /* View */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		044CAC67289428E000A4998C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				044CAC562894233900A4998C /* MainView.swift */,
+				044CAC7028942AC200A4998C /* NewsCell.swift */,
+				044CAC7128942AC200A4998C /* NewsCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		044CAC6B289428FF00A4998C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				044CAC7428942CC100A4998C /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044CAC782895679300A4998C /* LaunchScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				044CAC79289567A000A4998C /* View */,
+			);
+			path = LaunchScreenModule;
+			sourceTree = "<group>";
+		};
+		044CAC79289567A000A4998C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				044CAC7A289567C600A4998C /* SpinnerViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA2AAC72B0DD8A8C6644EF2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C79980946A5EB24962E642D /* Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper.debug.xcconfig */,
+				20ADC1471AEF3037671E2DD6 /* Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C588C6C8B6DF1DBAC5B2D62C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CEA84A876D666F67D833B08 /* Pods_37_7_ParsingProject_Moya_Alamofire_Kingfisher_ObjectMapper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044CAC4E2894233900A4998C /* 37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044CAC632894233900A4998C /* Build configuration list for PBXNativeTarget "37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper" */;
+			buildPhases = (
+				06F5DFC1E15B24AFEFDE5A7E /* [CP] Check Pods Manifest.lock */,
+				044CAC4B2894233900A4998C /* Sources */,
+				044CAC4C2894233900A4998C /* Frameworks */,
+				044CAC4D2894233900A4998C /* Resources */,
+				ABB7F80F84F4FA977BC7ABA9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper";
+			productName = "37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper";
+			productReference = 044CAC4F2894233900A4998C /* 37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044CAC472894233900A4998C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					044CAC4E2894233900A4998C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 044CAC4A2894233900A4998C /* Build configuration list for PBXProject "37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044CAC462894233900A4998C;
+			productRefGroup = 044CAC502894233900A4998C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044CAC4E2894233900A4998C /* 37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044CAC4D2894233900A4998C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044CAC7328942AC200A4998C /* NewsCell.xib in Resources */,
+				044CAC5F2894233900A4998C /* LaunchScreen.storyboard in Resources */,
+				044CAC5C2894233900A4998C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06F5DFC1E15B24AFEFDE5A7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABB7F80F84F4FA977BC7ABA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper/Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper/Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper/Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044CAC4B2894233900A4998C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044CAC7528942CC100A4998C /* Model.swift in Sources */,
+				044CAC572894233900A4998C /* MainView.swift in Sources */,
+				044CAC6D2894291D00A4998C /* Extension + MainView.swift in Sources */,
+				044CAC532894233900A4998C /* AppDelegate.swift in Sources */,
+				044CAC7B289567C600A4998C /* SpinnerViewController.swift in Sources */,
+				044CAC6F2894293700A4998C /* NetworkLayer.swift in Sources */,
+				044CAC7228942AC200A4998C /* NewsCell.swift in Sources */,
+				044CAC552894233900A4998C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		044CAC5D2894233900A4998C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044CAC5E2894233900A4998C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044CAC612894233900A4998C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		044CAC622894233900A4998C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044CAC642894233900A4998C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C79980946A5EB24962E642D /* Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74L575RYQ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "maslov.-7-7-ParsingProject-Moya-Alamofire-Kingfisher-ObjectMapper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		044CAC652894233900A4998C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20ADC1471AEF3037671E2DD6 /* Pods-37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74L575RYQ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "maslov.-7-7-ParsingProject-Moya-Alamofire-Kingfisher-ObjectMapper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044CAC4A2894233900A4998C /* Build configuration list for PBXProject "37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044CAC612894233900A4998C /* Debug */,
+				044CAC622894233900A4998C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044CAC632894233900A4998C /* Build configuration list for PBXNativeTarget "37.7 ParsingProject+Moya+Alamofire+Kingfisher+ObjectMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044CAC642894233900A4998C /* Debug */,
+				044CAC652894233900A4998C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044CAC472894233900A4998C /* Project object */;
+}
